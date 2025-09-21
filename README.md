@@ -54,3 +54,9 @@ Below are some sample images from the MNIST dataset that the network uses as inp
 - Achieves around **92% accuracy** on MNIST test data ✅
 
 ---
+
+## 🌃 End of the Line, Choomba  
+Thanks for checking out this little project.  
+BYE! BYE!
+
+![goodbye gif](Images/Johnny.gif)
