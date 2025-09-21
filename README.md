@@ -51,7 +51,6 @@ Below are some sample images from the MNIST dataset that the network uses as inp
 - Fully connected neural network built from scratch
 - Manual implementation of forward & backward propagation
 - One-hot encoding for labels 🎨
-- Predict single images with true vs predicted labels displayed 🔍
 - Achieves around **92% accuracy** on MNIST test data ✅
 
 ---
