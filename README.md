@@ -59,4 +59,4 @@ Below are some sample images from the MNIST dataset that the network uses as inp
 Thanks for checking out this little project.  
 BYE! BYE!
 
-![goodbye gif](Images/Johnny.gif)
+![goodbye gif](images/Johnny.gif)
