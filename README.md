@@ -54,7 +54,22 @@ Below are some sample images from the MNIST dataset that the network uses as inp
 - Achieves around **92% accuracy** on MNIST test data ✅
 
 ---
+```bash
+# Clone the repository
+git clone https://github.com/aditya0x77/From-Scratch-Neural-Network-for-Handwritten-Digit-Recognition.git
+cd From-Scratch-Neural-Network-for-Handwritten-Digit-Recognition
 
+# Install dependencies
+pip install numpy pandas matplotlib notebook
+
+# Launch Jupyter Notebook
+jupyter notebook
+
+# In Jupyter Notebook, open the NeuralNetwork.ipynb inside the Notebooks folder to:
+#   train the neural network, 
+#   see loss vs epoch,
+#   make predictions on sample images.
+```
 ## 🌃 End of the Line, Choomba  
 Thanks for checking out this little project.  
 BYE! BYE!
