@@ -1,77 +1,55 @@
-# Handwritten Digit Recognition Neural Network from Scratch ✏️🧠
+# Neural Network from Scratch for MNIST Classification
 
-This project implements a **fully connected neural network built entirely from scratch in Python** using only **NumPy and Pandas** — no TensorFlow or PyTorch here! It’s trained to recognize handwritten digits (0–9) from the [MNIST dataset](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv) 🖼️.
-
-The network takes **28×28 grayscale images** as input, flattens them into a 784-length vector, and predicts which digit the image represents.
+A fully connected neural network implemented from scratch using only **NumPy** and **Pandas**, without relying on deep learning frameworks such as TensorFlow or PyTorch. The project implements every stage of the learning pipeline—from parameter initialization and forward propagation to backpropagation and gradient-based optimization—to classify handwritten digits from the MNIST dataset.
 
 ---
 
-## How It Works 🧩
+## Results
 
-1. **Input Layer**:  
-   Each image is 28×28 pixels → flattened to a vector of 784 features. 🖼️  
-
-2. **Hidden Layers**:  
-   - Hidden Layer 1: 128 units, Sigmoid activation ⚡  
-   - Hidden Layer 2: 64 units, Sigmoid activation ⚡  
-
-3. **Output Layer**:  
-   - 10 units (0–9), Softmax activation 🎯  
-   - The network outputs probabilities for each digit and selects the one with the highest probability.  
-
-4. **Training**:  
-   - Forward propagation and backpropagation implemented manually ✍️  
-   - Cross-entropy loss for multi-class classification 📉  
-   - Batch training with adjustable batch size and learning rate ⚙️  
-
-5. **Prediction**:  
-   - The network can predict the digit for single images and display the true vs predicted label 🔍  
+- **~92% classification accuracy** on the MNIST test set
+- Manual implementation of the complete training pipeline
+- No automatic differentiation or deep learning libraries
 
 ---
 
-## Example MNIST Input Images 🖼️
+## Architecture
 
-Below are some sample images from the MNIST dataset that the network uses as input:
-
-![Digit 5](images/5.png)  
-*Example: digit 5*
-
-![Digit 0](images/0.png)  
-*Example: digit 0*
-
-![Digit 4](images/4.png)  
-*Example: digit 4*
-
-> The network will flatten these 28×28 images into a 784-length vector before processing.
+| Component | Implementation |
+|----------|----------------|
+| Input | 784-dimensional flattened image |
+| Hidden Layer 1 | 128 neurons (Sigmoid) |
+| Hidden Layer 2 | 64 neurons (Sigmoid) |
+| Output | 10 neurons (Softmax) |
+| Loss | Cross-Entropy |
+| Optimization | Mini-batch Gradient Descent |
 
 ---
 
-## Features 🚀
+## Features
 
-- Fully connected neural network built from scratch
-- Manual implementation of forward & backward propagation
-- One-hot encoding for labels 🎨
-- Achieves around **92% accuracy** on MNIST test data ✅
+- Built the neural network entirely from first principles
+- Implemented forward propagation and backpropagation manually
+- Derived and coded gradient calculations without automatic differentiation
+- Implemented mini-batch training and parameter updates using NumPy
+- Used one-hot encoding and softmax classification for multi-class prediction
+- Evaluated model performance on the MNIST dataset
 
 ---
-```bash
-# Clone the repository
-git clone https://github.com/aditya0x77/From-Scratch-Neural-Network-for-Handwritten-Digit-Recognition.git
-cd From-Scratch-Neural-Network-for-Handwritten-Digit-Recognition
 
-# Install dependencies
-pip install numpy pandas matplotlib notebook
+## Sample Inputs
 
-# Launch Jupyter Notebook
-jupyter notebook
+<p align="center">
+  <img src="images/5.png" width="140">
+  <img src="images/0.png" width="140">
+  <img src="images/4.png" width="140">
+</p>
 
-# In Jupyter Notebook, open the NeuralNetwork.ipynb inside the Notebooks folder to:
-#   train the neural network, 
-#   see loss vs epoch,
-#   make predictions on sample images.
-```
-## 🌃 End of the Line, Choomba  
-Thanks for checking out this little project.  
-BYE! BYE!
+---
+
+## Why This Project?
+
+Modern machine learning frameworks abstract away much of the optimization process. This project was built to better understand the mathematical and computational foundations of neural networks by implementing each component from scratch using only numerical computing libraries.
+
+---
 
 ![goodbye gif](images/Johnny.gif)
