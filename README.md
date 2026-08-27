@@ -51,5 +51,3 @@ A fully connected neural network implemented from scratch using only **NumPy** a
 Modern machine learning frameworks abstract away much of the optimization process. This project was built to better understand the mathematical and computational foundations of neural networks by implementing each component from scratch using only numerical computing libraries.
 
 ---
-
-![goodbye gif](images/Johnny.gif)
