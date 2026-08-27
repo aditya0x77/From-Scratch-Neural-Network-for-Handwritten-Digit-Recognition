@@ -44,23 +44,3 @@ The network is trained to recognize handwritten digits from the MNIST dataset.
 This project was built to understand the internal mechanics of neural networks by implementing every stage of training manually. Rather than relying on high-level libraries, all computations—including gradient calculation, parameter updates, and optimization—are performed using only NumPy.
 
 ---
-
-## Technologies
-
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Jupyter Notebook
-
----
-
-## End of the Line, Choomba
-
-Thanks for checking out the project.
-
-See you in the next one.
-
-<p align="center">
-  <img src="images/Johnny.gif" width="450">
-</p>
